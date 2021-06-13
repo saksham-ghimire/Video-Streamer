@@ -18,7 +18,7 @@ def send_webcam(port):
     while True:
         time_elapsed = time.time() - prev
         r,frame=vid.read()
-        print('Original Dimension', frame.shape)
+        #print('Original Dimension', frame.shape)
 
         if time_elapsed > 1./frame_rate:
             prev = time.time()
@@ -43,7 +43,7 @@ def send_webcam(port):
 
 
                     response=client.send(en_bytes) # sending encoded bytes over to server computer
-                    print(response)
+                    #print(response)
                 except:
                     break
 
