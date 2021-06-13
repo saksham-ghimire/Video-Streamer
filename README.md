@@ -14,7 +14,7 @@ video frame from multiple devices on network at once.
 mechanism or bandwidth control, instead are meant to be referce for improvised
 version of themselves namely 'Client.py' and 'Server.py'
 
-Please check out the following link to have insight of indepth 
+Please check out the following [link](https://gsakshyam3.medium.com/video-frame-transmission-using-python-5dd835b000f0) to have insight of indepth 
 working mechanism of provided scripts. 
 
 
